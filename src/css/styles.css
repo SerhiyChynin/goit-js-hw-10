@@ -23,3 +23,33 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.form {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form label:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.timer {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: center;
+}
+.value {
+   font-size: 40px;
+}
+.label {
+  text-transform: uppercase;
+  font-size: 14px;
+}
